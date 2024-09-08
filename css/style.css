@@ -1,0 +1,195 @@
+:root {
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    .h1{
+        font-size: 48px;
+        font-weight: bold;
+       margin-top: 30%;
+    }
+  }
+  body {
+    font-family: "roboto", helvetica, sans-serif;
+    overflow-x: hidden;
+    color: rgb(10, 54, 65);
+    margin: 0;
+  }
+  header {
+    width: 100%;
+    
+    position: fixed;
+    height: 77px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    top: 20px;
+  }
+  nav a {
+    color: rgb(8, 46, 46);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  nav a:hover {
+    color: rgb(22, 110, 131);
+  }
+#category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: aliceblue;
+    margin-left: 5%;
+}
+.posts-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.posts-container h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.posts-container img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px;  
+}
+.posts-container p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(10, 54, 65);
+    margin-left: 3%;
+}
+.posts-container button{
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #000000;
+    color: rgb(10, 54, 65);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 2%;
+}
+.fa-arrow-left{
+    margin-right: 15%;
+}
+
+.details-container{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.details-containerh h2{
+    font-size: 32px;
+    color: rgb(10, 54, 65);
+}
+.details-container img{
+    width: 35%;
+    height: auto;
+}
+.details-container p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(10, 54, 65);
+    
+}
+.details-container button{
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #000000;
+    color: rgb(10, 54, 65);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+}
+.cart-container{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    text-align: center;
+}
+.cart-container img{
+    width: 10%;
+    height: auto;
+}
+.cart-container button{
+    margin-top: 5px;
+    padding: 10px 10px;
+    background-color: #000000;
+    color: rgb(10, 54, 65);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+}
+button:hover{
+    background-color: #d2cece; 
+}
+#cart-summary {
+    font-size: 20px;
+    color: rgb(10, 54, 65);
+    margin-top: 10px; 
+    text-align: center;
+    border-top: 2px solid #0a3641;
+}
+#pay-container{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#pay-container button{
+    padding: 20px 50px;
+    background-color: #000000;
+    color: rgb(10, 54, 65);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: aliceblue;
+}
+#pay-container button:hover{
+    background-color: #d2cece;
+}
+
+h1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.checkout-container{
+    margin-top: 10%;
+    text-align: center;
+    border-bottom: 2px solid #0a3641;
+}
+#checkout-summary p{
+    font-size: 20px;
+    color: rgb(10, 54, 65);
+    margin-top: 10px; 
+    text-align: center;
+}
+#confirm-payment {
+    padding: 20px 50px;
+    background-color: #000000;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; 
+    margin: 20px auto; 
+}
+#confirm-payment:hover{
+    background-color: #d2cece;
+}
