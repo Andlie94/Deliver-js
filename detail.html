@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    /> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <i class="fas fa-arrow-left"></i> Back to Products
+        </a>
+        <a href="cart.html">
+            <i id="cartholder" class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </a>
+    </header>
+    <main>
+        <section>
+            <h1>Details</h1>
+            <div id="details-container" class="details-container"></div>
+            <p id="loading-message">Loading details..</p>
+        </section>
+    </main>
+    <script src="js/Posts/detail.js" type="module"></script>
+</body>
+</html>
